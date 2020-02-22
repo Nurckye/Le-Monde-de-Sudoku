@@ -1,0 +1,370 @@
+table {
+  margin-bottom: 10%;
+  font-family: "Tomorrow", sans-serif;
+}
+
+tr:first-child td {
+  border-top-color: black;
+}
+
+tr:nth-child(3n) td {
+  border-bottom-color: black;
+}
+
+td {
+  border: 1px solid lightgrey;
+  vertical-align: middle;
+  padding: 0.5px;
+}
+td:first-child {
+  border-left-color: black;
+}
+td:nth-child(3n) {
+  border-right-color: black;
+}
+
+.givenValue {
+  color: transparent;
+  text-shadow: 0 0 0 black;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: 0;
+  height: 32px;
+  width: 32px;
+  outline: none;
+}
+
+.givenValue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.targeted {
+  background: #eaebf0;
+  border: 2px solid #282c34;
+  border-style: dashed;
+}
+
+.givenValue:hover,
+.whiteColor:hover,
+.whiteColor:focus {
+  background: #eaebf0;
+}
+
+.redColor {
+  background: red;
+}
+
+.redColor:hover,
+.redColor:focus {
+  background: rgb(221, 31, 31);
+}
+
+button {
+  color: white;
+  background-color: #282c34;
+  text-decoration: none;
+  border: none;
+  padding: 2px 25px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+}
+
+button:hover,
+button:focus {
+  background-color: #4a515f;
+  transition: 0.2s;
+}
+
+.dashboardTable {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Merriweather Sans", sans-serif;
+  display: table;
+}
+
+.dashboardTable > tbody > tr > td {
+  border-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboardCell {
+  justify-content: center;
+  text-align: center;
+}
+
+.mainContainer {
+  margin: auto;
+  margin-top: 1%;
+  display: table;
+}
+
+.titleContainer {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.9vh;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.numbersRow {
+  border: 0;
+  border-left: hidden;
+  border-right: hidden;
+  border-top: hidden;
+}
+
+.numbers {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.numbers > tbody > tr > td {
+  border-right: 1px solid lightgrey;
+  color: white;
+  background-color: #282c34;
+  width: 11.1%;
+  height: 0.1vh;
+}
+
+.numberButton {
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.switch {
+  float: right;
+  text-align: right;
+  margin-top: 8px;
+  position: relative;
+  width: 90px;
+  height: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4a515f;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #282c34;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
+}
+
+.on {
+  display: none;
+}
+
+.on,
+.off {
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked + .slider .on {
+  display: block;
+}
+
+input:checked + .slider .off {
+  display: none;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.settingsOption {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+
+  align-items: center;
+  font-family: "Merriweather Sans", sans-serif;
+  border-bottom: 0.3px solid #282c34;
+  margin-bottom: 3%;
+}
+
+.settingsOptionName {
+  margin-right: 20%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.settingsTitle {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  text-align: center;
+}
+
+.socialMedia {
+  width: 50px;
+  height: 50px;
+}
+
+.socialMediaPictures {
+  display: flex;
+  width: 80%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+  justify-content: space-between;
+}
+
+.logoImageSettings {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 150px;
+  justify-content: center;
+  bottom: 100px;
+}
+
+@media only screen and (max-width: 750px) {
+  .socialMediaPictures {
+    bottom: 0;
+    position: absolute;
+    margin-top: 1%;
+  }
+  .logoImageSettings {
+    display: block;
+  }
+}
+
+@media only screen and (max-height: 580px) {
+  .logoImageSettings {
+    display: none;
+  }
+}
+
+.message {
+  background: white;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.message h1 {
+  color: #fff;
+}
+
+#toggle {
+  position: fixed;
+  appearance: none;
+  cursor: pointer;
+  margin-left: 50%;
+  z-index: -10000;
+}
+
+.toggleLabel {
+  margin-left: 50%;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+#toggle ~ .toggleLabel :after {
+  content: "Open";
+}
+
+#toggle:checked ~ .message {
+  top: 0;
+}
+
+#toggle:checked + label {
+  background: #dd6149;
+}
+
+#toggle:checked + label:after {
+  content: "Close";
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrowIt {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 2%;
+}
