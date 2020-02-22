@@ -9,4 +9,4 @@ Just the usual Sudoku experience
 * **Hard mode** - 
 Less initial filled squares
 * **5 Mistakes Mode** - 
-Aallows user to do up to 5 mistakes per game
+Allows user to do up to 5 mistakes per game
