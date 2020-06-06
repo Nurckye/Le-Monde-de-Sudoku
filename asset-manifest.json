@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.a7651c70.chunk.css",
-    "main.js": "/my-app/static/js/main.aa0f6145.chunk.js",
-    "main.js.map": "/my-app/static/js/main.aa0f6145.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.d86211ad.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.d86211ad.js.map",
-    "static/css/2.67123b20.chunk.css": "/my-app/static/css/2.67123b20.chunk.css",
-    "static/js/2.1fe75f82.chunk.js": "/my-app/static/js/2.1fe75f82.chunk.js",
-    "static/js/2.1fe75f82.chunk.js.map": "/my-app/static/js/2.1fe75f82.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.16dc049eb053e989942b9f71f5f46d35.js": "/my-app/precache-manifest.16dc049eb053e989942b9f71f5f46d35.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/2.67123b20.chunk.css.map": "/my-app/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.a7651c70.chunk.css.map": "/my-app/static/css/main.a7651c70.chunk.css.map",
-    "static/js/2.1fe75f82.chunk.js.LICENSE.txt": "/my-app/static/js/2.1fe75f82.chunk.js.LICENSE.txt",
-    "static/media/click1.mp3": "/my-app/static/media/click1.ab340eb2.mp3",
-    "static/media/click2.mp3": "/my-app/static/media/click2.fe6563e9.mp3",
-    "static/media/github.png": "/my-app/static/media/github.1f3e0cf9.png",
-    "static/media/instagram.png": "/my-app/static/media/instagram.7ce585cd.png",
-    "static/media/linkedin.png": "/my-app/static/media/linkedin.388b8367.png",
-    "static/media/logo512.png": "/my-app/static/media/logo512.ee51dfb4.png"
+    "main.css": "/Le-Monde-de-Sudoku/static/css/main.a7651c70.chunk.css",
+    "main.js": "/Le-Monde-de-Sudoku/static/js/main.a3dbf04f.chunk.js",
+    "main.js.map": "/Le-Monde-de-Sudoku/static/js/main.a3dbf04f.chunk.js.map",
+    "runtime-main.js": "/Le-Monde-de-Sudoku/static/js/runtime-main.cd05e16b.js",
+    "runtime-main.js.map": "/Le-Monde-de-Sudoku/static/js/runtime-main.cd05e16b.js.map",
+    "static/css/2.67123b20.chunk.css": "/Le-Monde-de-Sudoku/static/css/2.67123b20.chunk.css",
+    "static/js/2.1fe75f82.chunk.js": "/Le-Monde-de-Sudoku/static/js/2.1fe75f82.chunk.js",
+    "static/js/2.1fe75f82.chunk.js.map": "/Le-Monde-de-Sudoku/static/js/2.1fe75f82.chunk.js.map",
+    "index.html": "/Le-Monde-de-Sudoku/index.html",
+    "precache-manifest.5b56c9c0cb93401b621f32a3ebd12927.js": "/Le-Monde-de-Sudoku/precache-manifest.5b56c9c0cb93401b621f32a3ebd12927.js",
+    "service-worker.js": "/Le-Monde-de-Sudoku/service-worker.js",
+    "static/css/2.67123b20.chunk.css.map": "/Le-Monde-de-Sudoku/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.a7651c70.chunk.css.map": "/Le-Monde-de-Sudoku/static/css/main.a7651c70.chunk.css.map",
+    "static/js/2.1fe75f82.chunk.js.LICENSE.txt": "/Le-Monde-de-Sudoku/static/js/2.1fe75f82.chunk.js.LICENSE.txt",
+    "static/media/click1.mp3": "/Le-Monde-de-Sudoku/static/media/click1.ab340eb2.mp3",
+    "static/media/click2.mp3": "/Le-Monde-de-Sudoku/static/media/click2.fe6563e9.mp3",
+    "static/media/github.png": "/Le-Monde-de-Sudoku/static/media/github.1f3e0cf9.png",
+    "static/media/instagram.png": "/Le-Monde-de-Sudoku/static/media/instagram.7ce585cd.png",
+    "static/media/linkedin.png": "/Le-Monde-de-Sudoku/static/media/linkedin.388b8367.png",
+    "static/media/logo512.png": "/Le-Monde-de-Sudoku/static/media/logo512.ee51dfb4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d86211ad.js",
+    "static/js/runtime-main.cd05e16b.js",
     "static/css/2.67123b20.chunk.css",
     "static/js/2.1fe75f82.chunk.js",
     "static/css/main.a7651c70.chunk.css",
-    "static/js/main.aa0f6145.chunk.js"
+    "static/js/main.a3dbf04f.chunk.js"
   ]
 }
