@@ -1,6 +1,6 @@
 ## Le Monde de Sudoku
 
-# https://nurckye.github.io/Le-Monde-de-Sudoku/
+### https://nurckye.github.io/Le-Monde-de-Sudoku/
 A mobile-oriented web game created in ReactJs with multiple game modes, designed as a single-page application.
 
 ### `Game Modes`
